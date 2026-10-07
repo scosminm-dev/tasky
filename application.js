@@ -59,8 +59,8 @@ todoInput.addEventListener('keydown', function (event) {
 
 todoList.addEventListener('change', toggleTask);
 
-//Lorem ipsum of tasky
-const initalTasks = ['Buy clothes','Buy popcorn','Watch a movie','Go swiming','Buy a concert ticket','Lorem ipsum', 'Go karting', 'Do bungee jumping'];
+//Stuff to do after work on task
+const initalTasks = ['Buy clothes','Buy popcorn','Watch a movie','Go swiming','Buy a concert ticket', 'Go karting', 'Do bungee jumping'];
 
 initalTasks.forEach((task) => {
   const taskItem = createTaskItem(task);
