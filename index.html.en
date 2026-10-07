@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resources.css">
+    <title>Tasky</title>
+</head>
+
+<body>
+    <main>
+        <div class="todo-container">
+            <h1>Tasky</h1>
+            <div class="input-container">
+                <input type="text" id="todo-text" class="todo-text" placeholder="Add a new tasky" />
+                <button id="add-btn">Add tasky</button>
+            </div>
+            <ul id="act-list" class="todo-list">
+
+            </ul>
+        </div>
+    </main>
+    <script src="application.js"></script>
+</body>
+
+</html>
